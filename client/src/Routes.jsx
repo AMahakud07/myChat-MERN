@@ -7,7 +7,7 @@ export default function Routes(){
     // console.log(username);
 
     if(username){
-        return 'logged in';
+        return 'logged in !!!!'+ username;
     }
     return(
         <Register/>
